@@ -29,9 +29,9 @@ export default function () {
   React.useEffect(() => {
     const checkInitialization = async () => {
       const isAppInit = await isAppInitialized();
-      if (isAppInit) {
-        router.push("/(tabs)/logs");
-      }
+      // if (isAppInit) {
+      //   router.push("/(tabs)/logs");
+      // }
     };
     checkInitialization();
   }, []);

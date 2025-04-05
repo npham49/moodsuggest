@@ -23,27 +23,27 @@ export function OnboardingIllustration() {
         {/* Floating mood emojis */}
         <G transform="translate(80,80)">
           <Circle r="25" fill="#FEE2E2" />
-          <SvgText x="-12" y="8" fontSize="24">
-            <TSpan>😊</TSpan>
-          </SvgText>
+          <TSpan x="-12" y="8" fontSize="24" fill="#000000">
+            😊
+          </TSpan>
         </G>
         <G transform="translate(320,80)">
           <Circle r="25" fill="#DBEAFE" />
-          <SvgText x="-12" y="8" fontSize="24">
-            <TSpan>😌</TSpan>
-          </SvgText>
+          <TSpan x="-12" y="8" fontSize="24" fill="#000000">
+            😌
+          </TSpan>
         </G>
         <G transform="translate(80,320)">
           <Circle r="25" fill="#E0E7FF" />
-          <SvgText x="-12" y="8" fontSize="24">
-            <TSpan>🎉</TSpan>
-          </SvgText>
+          <TSpan x="-12" y="8" fontSize="24" fill="#000000">
+            🎉
+          </TSpan>
         </G>
         <G transform="translate(320,320)">
           <Circle r="25" fill="#FEF3C7" />
-          <SvgText x="-12" y="8" fontSize="24">
-            <TSpan>🙏</TSpan>
-          </SvgText>
+          <TSpan x="-12" y="8" fontSize="24" fill="#000000">
+            🙏
+          </TSpan>
         </G>
         {/* Decorative lines */}
         <Path

@@ -133,6 +133,13 @@ export default function Page() {
         });
       }
 
+      setLog({
+        mood: {},
+        action: {},
+        location: {},
+        subject: {},
+      });
+
       // Navigate back to home
       router.replace("/(tabs)/logs");
     } catch (error) {
